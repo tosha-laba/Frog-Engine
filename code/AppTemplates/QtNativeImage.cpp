@@ -1,0 +1,1 @@
+#include "QtNativeImage.h"
