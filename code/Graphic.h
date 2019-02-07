@@ -12,7 +12,7 @@ namespace Frog {
 
     /*!
         \brief Интерфейс графического объекта
-        \authors Антон Завьялов, Николай Черемнов
+        \author Антон Завьялов 
         \version 1.0
         \date Январь 2019
         \see Entity, INativeImage

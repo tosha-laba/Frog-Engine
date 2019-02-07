@@ -14,7 +14,7 @@ namespace Frog {
 
     /*!
         \brief Интерфейс звуковой компоненты приложения.
-        \authors Антон Завьялов, Николай Черемнов
+        \author Антон Завьялов 
         \version 1.0
         \date Январь 2019
         \see INativeSound
