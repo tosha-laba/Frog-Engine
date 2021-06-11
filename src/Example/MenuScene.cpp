@@ -17,7 +17,7 @@ MenuScene::MenuScene()
     carriage = new Text(">", 100, 180);
     addEntity(carriage);
 
-    runningLine = new Text("By Anton Zavyalov and Nikolay Cheremnov", 0, 590);
+    runningLine = new Text("By Anton Zavyalov", 0, 590);
     addEntity(runningLine);
 }
 
@@ -65,7 +65,7 @@ void MenuScene::onDraw()
     Frog::FG::graphics->drawQuad(Frog::GraphicsComponent::DrawMode::Fill, 0, 0, 805, 605);
 
 #ifdef JOKE
-    Frog::FG::graphics->drawImage(&menu, 0, 0);
+    Frog::FG::graphics->drawImage(&menu, -10, 120);
 #else
     Frog::FG::graphics->drawImage(&menu, -10, 120);
 #endif
